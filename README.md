@@ -1,0 +1,1 @@
+# 2025-f-resolucion-ejercicios-parcial

@@ -70,6 +70,8 @@ perteneceAGenero genero videojuego = elem genero (generos videojuego)
 esReciente videojuego = lanzamiento videojuego > 2015
 
 
+-- 1. Modelar a los jugadores de ejemplo (Juan, María y Pedro).
+
 type Jugador = Videojuego -> Bool
 
 juan :: Jugador

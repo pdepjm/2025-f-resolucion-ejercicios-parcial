@@ -109,7 +109,7 @@ esPreferidoPor' comite juego = all ($ juego) comite -- Esta alterantiva puede no
 
 -- Codigo ya existente
 
-{-
+
 --Devuelve a la persona luego de haberse tomado la bebida
 tomar:: Bebida -> Persona -> Persona  
 
@@ -136,8 +136,6 @@ seTomanUnCoctelConEstasBebidas bebidas personas = map (tomar (mezclarTodas bebid
 -- [Si] Orden Superior | [No] Listas infinitas | [Si] Aplicación Parcial | [No] Efecto
 
 
-
--}
 
 
 

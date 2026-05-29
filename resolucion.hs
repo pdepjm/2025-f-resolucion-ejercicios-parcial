@@ -130,6 +130,10 @@ mezclarTodas' (x:xs) = mezclar x (mezclarTodas' xs)
 seTomanUnCoctelConEstasBebidas :: [Bebida] -> [Persona] -> [Persona]
 seTomanUnCoctelConEstasBebidas bebidas personas = map (tomar (mezclarTodas bebidas)) personas
 
+--Con composición
+seTomanUnCoctelConEstasBebidas' :: [Bebida] -> [Persona] -> [Persona]
+seTomanUnCoctelConEstasBebidas' = map.tomar.mezclarTodas
+
 
 -- 2. Indicar qué concepto/s se están utilizando en la solución anterior:
 
